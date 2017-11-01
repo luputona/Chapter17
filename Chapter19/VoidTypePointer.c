@@ -13,7 +13,7 @@ void main2()
 	ptr = &num; // 변수 num의 주소 값 저장
 	printf("%p \n", ptr);
 
-	ptr = SoSimpleFunc;
+	ptr = SoSimpleFunc; //함수 SoSimplefunc의 주소 값 저장
 	printf("%p \n", ptr);
 
 }
